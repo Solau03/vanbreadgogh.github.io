@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portafolio </title>  
+    <link rel="stylesheet" href=".PORTAFOLIO/CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Laura
+            <span>Quina</span></a>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a href="#home" class="active">Inicio</a>
+                <a href="#services" class="active">Servicios</a>
+                <a href="#projects" class="active">Proyectos</a>
+
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hola, Soy <span>Laura :)</span></h1>
+                <h3 class="text-animation">
+                    Soy <span></span>
+                </h3>
+                <p> Me llamo Laura Sofía Quina Gómez, soy estudiante de desarrollo de software en la Universidad Tecnolgoica
+                    de Pereira. Me gusta todo lo que conlleva con el diseño de interfaces, me gusta el fronted, las interacciones con las bases de datos,
+                    y un poco un backend básico. Utilizo como lenguajes c++, java, python. Bases de datos relaciones como Mysql.
+                </p>
+
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook" style="color: #79e7fb;"></i></a>
+                    <a href="#"><i class="fa-brands fa-github" style="color: #53e5ff;"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord" style="color: #79e7fb;"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" style="color: #53e5ff;"></i></a>
+                </div>
+                <a href="#" class="btn">Aquí</a>
+            </div>
+
+            <div class="home-img">
+                <img src="./Images/Imagen2.jpeg" alt="yo"> 
+            </div>            
+        </section>
+
+       <section class="services" id="services">
+        <h2 class="heading">Servicios</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-palette" style="color: #18ecfb;"></i>
+                <h3> FRONTED</h3>
+                <P></P>
+                <a href="#" class="btn">Leer Más</a>
+
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-server" style="color: #0091ff;"></i>
+                <h3> BACKEND</h3>
+                <P></P>
+                <a href="#" class="btn">Leer Más</a>
+
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-code" style="color: #00fffb;"></i>
+                <h3> BADE DE DATOS</h3>
+                <P></P>
+                <a href="#" class="btn">Leer Más</a>
+
+            </div>
+        </div>
+
+       </section> 
+       <section class="projects" id="projects">
+        <h2 class="heading">PROYECTOS</h2>
+        <div class="projects-container">
+
+            <div class="projects-box">
+                
+               <img src="./Images/Proyecto.png" alt="proyecto">
+               <div class="projects-info">
+                <h4>PANADERÍA</h4> 
+                <p>Sistema de compra de productos en una panadería online
+                    <a href="pag.html">Ver proyecto</a>
+                </p>
+               </div> 
+            </div>
+        
+        
+            <div class="projects-box">
+               <img src="./Images/Acuario.jpeg" alt="proyecto">
+               <div class="projects-info">
+                <h4>ACUARIO</h4> 
+                <p>Sistema de reserva de tiquetes para un acuario</p>
+               </div> 
+            </div>
+            <div class="projects-box">
+                <img src="./Images/Hotel.jpg" alt="proyecto">
+                <div class="projects-info">
+                 <h4>HOTEL</h4> 
+                 <p>Sistema de gestión de reservas para un hotel</p>
+                </div> 
+             </div>
+        </div>
+       </section>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
